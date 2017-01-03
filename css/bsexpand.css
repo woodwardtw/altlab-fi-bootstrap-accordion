@@ -1,0 +1,43 @@
+	#fi-cite .panel-group .panel {
+		border-radius: 0;
+		box-shadow: none;
+		border-color: #EEEEEE;
+	}
+
+	#fi-cite  .panel-default > .panel-heading {
+		padding: 0;
+		border-radius: 0;
+		color: #212121;
+		background-color: #FAFAFA;
+		border-color: #EEEEEE;
+	}
+
+	#fi-cite .panel-title {
+		font-size: 14px;
+	}
+
+	#fi-cite .panel-title > a {
+		display: inline-block;
+		background-color: #fff;
+		padding: 15px;
+		text-decoration: none;
+	}
+
+	#fi-cite .more-less {
+		float: right;
+		color: #212121;
+	}
+
+	#fi-cite .panel-default > .panel-heading + .panel-collapse > .panel-body {
+		border-top-color: #EEEEEE;
+	}
+
+	.bs-mail {
+    	margin-left: 15px;
+    	color: #424242;
+    	}
+    #fi-cite .glyphicon {
+    	font-size: .8em;
+    	margin-left: 10px;
+    	margin-right: 15px;
+    	}
