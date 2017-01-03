@@ -81,7 +81,7 @@ function bsc_item( $atts, $content = null ) {
     $html .= '<a class= "stayinline" href="mailto:?&subject=Information%20about%20'.$title.'&body='.$url.'#'.$clean_title.'"><i class="glyphicon glyphicon-envelope bs-mail"></i></a></h4></div>'; //revisit link to get site URL 
     $html .='<div id="'.$clean_title.'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">';
     $html .= '<div class="panel-body">';
-    $html .= $content . '</div></div></div>';
+    $html .= do_shortcode($content) . '</div></div></div>';
 
 
     return  $html;
