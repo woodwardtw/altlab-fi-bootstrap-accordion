@@ -76,9 +76,8 @@ function bsc_item( $atts, $content = null ) {
     $html .= '<div class="panel-heading" role="tab" id="head'.$clean_title.'">';
     $html .= '<h4 class="panel-title">';
     $html .= '<a role="button" data-toggle="collapse" href="#' . $clean_title . '" aria-expanded="true" aria-controls="'.$clean_title.'">';
-    $html .= '<i class="more-less glyphicon glyphicon-plus"></i>';
-    $html .= $title . '</a>'; //make a clean title vs regular title 
-    $html .= '<a class= "stayinline" href="mailto:?&subject=Information%20about%20'.$title.'&body='.$url.'#'.$clean_title.'"><i class="glyphicon glyphicon-envelope bs-mail"></i></a></h4></div>'; //revisit link to get site URL 
+    $html .= '<i class="more-less glyphicon glyphicon-plus plus-icon"></i>' . $title . '</a>'; 
+    $html .= '<a class= "mail-icon" href="mailto:?&subject=Information%20about%20'.$title.'&body='.$url.'#'.$clean_title.'"><i class="glyphicon glyphicon-envelope bs-mail"></i></a></h4></div>'; //revisit link to get site URL 
     $html .='<div id="'.$clean_title.'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">';
     $html .= '<div class="panel-body">';
     $html .= do_shortcode($content) . '</div></div></div>';
